@@ -1,0 +1,17 @@
+# for testing authentication
+GCP_PROJECT_ID=xxx
+
+# for testing we can access drive - just add a readable file name here
+DRIVE_TEST_FILE_ID=xxx
+
+# using default application credentials
+AC=default
+
+# these are the scopes set by default - take some of these out if you want to minimize access
+DEFAULT_SCOPES="https://www.googleapis.com/auth/userinfo.email,https://www.googleapis.com/auth/drive,openid,https://www.googleapis.com/auth/cloud-platform,https://www.googleapis.com/auth/sqlservice.login"
+EXTRA_SCOPES=",https://www.googleapis.com/auth/drive,https://www.googleapis.com/auth/spreadsheets"
+
+# for unit tests
+TEST_AIRPORTS_ID="1h9IGIShgVBVUrUjjawk5MaCEQte_7t32XeEP1Z5jXKQ"
+TEST_AIRPORTS_NAME="airport list"
+CLEAN=true
