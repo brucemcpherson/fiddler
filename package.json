@@ -1,0 +1,12 @@
+{
+  "name": "@mcpher/fiddler",
+  "version": "1.0.0",
+  "main": "main.js",
+  "description": "A port of Apps Script library bmfiddler to Node - Google Sheets",
+  "repository": "github:brucemcpherson/fiddler",
+  "homepage": "https://ramblings.mcpher.com/gassnippets2/afunctionalapproachtofiddlingwithsheetdata/",
+  "scripts": {
+    "pub": "npm publish --access public"
+  },
+  "type": "module"
+}
